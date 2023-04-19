@@ -1,6 +1,5 @@
       /*
-      MODEL SECTION:
-      
+      ?* MODEL SECTION :
       ** todo if the local storage has a todos  array, then use it.
       ** Otherwise use the default array.
       */
