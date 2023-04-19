@@ -46,7 +46,7 @@
       }
 
       //CREATE A TODO:
-      function createTodo(title, dueDate) {
+      const createTodo = (title, dueDate) => {
          const id = '' + new Date().getTime();
 
          todos.push({
@@ -59,7 +59,7 @@
       }
       
       //DELETE A TODO:
-      function removeTodo(idToDelete) {
+      const removeTodo = idToDelete => {
          todos = todos.filter(function (todo) {
             //IF the id of this todo matches  idToDelete, return false
             //For everything else, return true
@@ -75,12 +75,12 @@
       }
 
       //SAVE A TODO:
-      function saveTodos(){
+      const saveTodos = () => {
          localStorage.setItem('todos', JSON.stringify(todos));
       }
       
       //CONTROLLER SECTION:
-      function addTodo() {
+      const addTodo = () => {
          const input = document.getElementById('input');
          const title = input.value;
 
@@ -91,7 +91,7 @@
          render();
       }
 
-      function deleteTodo(event) {
+      const deleteTodo = event => {
          const deleteButton = event.target;
          const idToDelete = deleteButton.id;
 
@@ -100,7 +100,7 @@
       }
 
       // VIEW SECTION:
-      function render() {
+      const render = () => {
          //reset todo list
          document.getElementById('todo-list').innerHTML = '';
 
