@@ -2,7 +2,7 @@
 </br>
 </hr>
 - Language: javascript.
-- Title: TodoList.
+- Title: TodoList
 - Developed by: solomon belay.
 
 **On Progess!**
