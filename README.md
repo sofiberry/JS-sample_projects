@@ -1,9 +1,6 @@
-# TODO-LIST Project
+# Mini Projects Using Javascript
 
-### About Project
+- There will be a lot of projects through process.
+- pure javascript(no framework) projects.
 
-- `Language`: javascript.
-- `Title`: TodoList
-- `Developed by`: solomon belay.
-
-**On Progess!**
+** `On Progress` **
