@@ -1,6 +1,8 @@
-# Demo  README
+# TODO-LIST Project
+</br>
+</hr>
+- Language: javascript.
+- Title: TodoList.
+- Developed by: solomon belay.
 
-- This repository is my first repo for github.
-- The first round to know about git and github.
-
-**some description!**
+**On Progess!**
